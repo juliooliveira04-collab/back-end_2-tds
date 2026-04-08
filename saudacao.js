@@ -21,7 +21,6 @@ function soma(numero1, numero2) {
 };
 
 console.log("a soma entre 5 e 3 é " + soma(5, 3));
-
 function verificarPar(numero) {
     if (numero % 2 === 0){
         return "O número é par"
@@ -29,5 +28,7 @@ function verificarPar(numero) {
         return "O número é impar"
     }
 };
+
+console.log(verificarPar)
 
 console.log(verificarPar(3));
